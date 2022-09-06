@@ -1,0 +1,41 @@
+
+.navbar{
+        color: white;
+}
+
+footer {
+    padding: 0.5rem;
+    
+    background-size: cover;
+    background-position: center;
+        }
+  
+ /*animating the contact detail icon below, using keyframes below that*/       
+.icons {
+    width: 3rem;
+    margin: 2rem;
+    height: auto;
+    padding-top: 0.5rem;
+    animation-name: animationicons;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+                  }
+
+@keyframes animationicons {
+    0%   {border-radius: 0%;}
+    25%  {border-radius: 100%;
+            transform: rotate(90deg);}
+    50%  {background-color: blue;
+            transform: rotate(180deg);}
+    100% {background-color: gold;
+            transform: rotate(360deg);}
+                            }                  
+ 
+
+
+
+  
+  
+                           
+  
+ 
